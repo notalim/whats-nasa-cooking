@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    border-color: var(--border-color);
+    border-bottom: solid 1px;
+    padding: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    margin-left: 1rem;
+    /* ... */
+    color: var(--text-color);
+}
+
+.navbar-actions > * {
+    margin-right: 1rem;
+}
+
+.navbar-actions {
+    display: flex;
+}
+
+.navbar a:hover {
+    color: var(--primary-color);
+}
+
+.navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: #f0d3f7;
+}
+
+.logout-button {
+  margin-left: 30px;
+  padding-left:0.3rem;
+  padding-right:0.3rem;
+    font-family: "Libre Baskerville", serif;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.logout-button:hover {
+  background-color: var(--secondary-color);
+}
