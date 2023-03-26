@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const configRoutes = require("../src/routes");
 
+
 const app = express();
 
 app.use(cors()); 
