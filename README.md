@@ -1,5 +1,5 @@
 # What's NASA Cooking
-> v. 1.1.2
+> v1.1.2
 
 ### My first full-stack application that I am proud to share with the world! 
 
