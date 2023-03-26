@@ -14,7 +14,6 @@
     font-size: 1.2rem;
     transition: color 0.3s;
     margin-left: 1rem;
-    /* ... */
     color: var(--text-color);
 }
 
@@ -38,9 +37,9 @@
 }
 
 .logout-button {
-  margin-left: 30px;
-  padding-left:0.3rem;
-  padding-right:0.3rem;
+    margin-left: 30px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
     font-family: "Libre Baskerville", serif;
     background-color: var(--primary-color);
     color: var(--background-color);
@@ -50,5 +49,26 @@
     transition: background-color 0.3s;
 }
 .logout-button:hover {
-  background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-title {
+        font-size: 1.2rem;
+    }
+
+    .navbar a {
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+    }
+
+    .navbar-actions > * {
+        margin-right: 0.5rem;
+    }
+
+    .logout-button {
+        margin-left: 15px;
+        padding-left: 0.15rem;
+        padding-right: 0.15rem;
+    }
 }
