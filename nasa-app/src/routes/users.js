@@ -61,7 +61,6 @@ router.route("/login").post(async (req, res) => {
         // const userToSend = {
         //     _id: user._id,
         //     username: user.username,
-        //     // Add any other properties you want to send, but exclude the password
         // };
 
         // console.log("User to send:", userToSend);
