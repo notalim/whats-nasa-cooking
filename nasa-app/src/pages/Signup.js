@@ -8,7 +8,7 @@ function SignupPage() {
         e.preventDefault();
         try {
             const response = await fetch(
-                "https://nasa-app-test2.herokuapp.com/5001/users/login",
+                "https://nasa-app-test2.herokuapp.com/5001/users/register/",
                 {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
